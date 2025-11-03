@@ -9,7 +9,6 @@ const MessageSection = () => {
       type: 'words',
     });
 
-    console.log('wrods', firstMsgSplit.words);
     const secMsgSplit = SplitText.create('.second-message', {
       type: 'words',
     });
